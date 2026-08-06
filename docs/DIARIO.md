@@ -8,11 +8,11 @@
 
 ## Encontro 1 — 30/07 (aula)
 
-**Presentes:kaua, silvia beatriz, wenderson e clarice.**
-**Escriba:kauã**
+**Presentes: kaua, silvia beatriz, wenderson e clarice.**
+**Escriba: kauã**
 
-**O que se pretendia:gazer a parte do "comece aqui" e tentar avançar.**
-**O que se realizou:fizemos a parte do "comece aqui"**
+**O que se pretendia: fazer a parte do "comece aqui" e tentar avançar.**
+**O que se realizou: fizemos a parte do "comece aqui"**
 
 **Tempo gasto por história:**
 
@@ -21,7 +21,7 @@
 
 **Impedimentos encontrados:** *(A falta de interesse do grupo, acaba que apenas um aluno fez )*
 
-**Decisões tomadas:** *(fizemos apenas p comece aqui)*
+**Decisões tomadas:** *(fizemos apenas o comece aqui)*
 
 ---
 
