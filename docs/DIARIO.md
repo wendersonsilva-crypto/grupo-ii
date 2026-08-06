@@ -1,4 +1,4 @@
-# Diário da sprint — [nome da equipe] · base [V-?]
+# Diário da sprint — [VIVEIRO I] · base [V-?]
 
 > Um bloco por encontro e por sessão extra, sempre no mesmo formato.
 > O diário registra o que aconteceu, não o que deveria ter acontecido.
@@ -8,20 +8,20 @@
 
 ## Encontro 1 — 30/07 (aula)
 
-**Presentes:**
-**Escriba:**
+**Presentes:kaua, silvia beatriz, wenderson e clarice.**
+**Escriba:kauã**
 
-**O que se pretendia:**
-**O que se realizou:**
+**O que se pretendia:gazer a parte do "comece aqui" e tentar avançar.**
+**O que se realizou:fizemos a parte do "comece aqui"**
 
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
-|---|---|---|
+|          |Kauã|            1h|
 
-**Impedimentos encontrados:** *(o que travou o trabalho, e o que foi feito a respeito)*
+**Impedimentos encontrados:** *(A falta de interesse do grupo, acaba que apenas um aluno fez )*
 
-**Decisões tomadas:** *(com a justificativa de cada uma)*
+**Decisões tomadas:** *(fizemos apenas p comece aqui)*
 
 ---
 
