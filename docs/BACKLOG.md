@@ -27,7 +27,9 @@ Pronto quando:
 
 ### V-02 — Filtro por curso
 
-Implementar filtro por curso na barra lateral do mural.
+**Como** aluno procurado algo para fazer 
+**quero** conseguir usar um filtro por curso
+**para** encontrar editais que combinem com seu gostos
 
 Pronto quando:
 - o filtro estiver funcionando.
@@ -37,7 +39,7 @@ Pronto quando:
 ### V-03 — Publicar uma ideia
 
 **Como** aluno ou professor com uma ideia na cabeça,
-**quero** publicar meu projeto independente através de um formulário que tenha título, resumo e tags, identificando meu nome como autor e a data de hoje, e que, ao enviar, faça minha ideia aparecer imediatamente no topo do mural sem precisar recarregar a página,
+**quero** publicar meu projeto independente através de um formulário que tenha título, resumo e tags, identificando meu nome como autor e a data de hoje, e que, ao enviar, faça minha ideia aparecer como um rascunho em uma área específica sem precisar recarregar a página,
 **para** que minha ideia exista antes de eu esquecer.
 
 Pronto quando:
