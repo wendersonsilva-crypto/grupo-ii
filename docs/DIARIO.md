@@ -29,6 +29,7 @@
 ## Encontro 3 - 13/08 (aula)
 
 **Presentes: Nathália, Samuel, Silvia Beatriz.**
+
 **Escriba: Samuel.**
 
 **O que se pretendia:** Analisar o backlog, adicionando correções e redefinindo tarefas. Analisar e avaliar as complexidades das tarefas.
