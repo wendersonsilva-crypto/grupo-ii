@@ -25,20 +25,6 @@
 
 ---
 
-## Sessão extra — 13/08 (aula)
-
-**Como foi combinada:** Aula; 
-**Presentes:** Nathalia, Samuel, Silvia Beatriz e Wenderson;
-**Escriba:** Nathalia.
-
-**O que se realizou:** V-03.
-
-| ID | Quem trabalhou | Tempo(min) |
-|22|Silvia Beatriz|60min|
-
---- 
-
-
 ## Encontro 3 - 13/08 (aula)
 
 **Presentes: Nathália, Samuel, Silvia Beatriz.**
