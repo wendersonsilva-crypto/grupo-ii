@@ -50,7 +50,7 @@
 
 **Impedimentos encontrados:** *Compreensão dos trabalhos a serem feitos.*
 
-**Decisões tomadas:**
+**Decisões tomadas:** *Editar o js code e o backlog*
 
 ---
 
