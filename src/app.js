@@ -200,7 +200,65 @@ function trocarAba(qual) {
   document.getElementById("aba-grupos").className = (qual === "grupos") ? "aba ativa" : "aba";
 }
 
-/* --------------------------------------------------------- início */
+function publicarIdeia() {
+  var titulo = document.getElementById("titulo").value.trim();
+  var resumo = document.getElementById("resumo").value.trim();
+  var tagsTexto = document.getElementById("tags").value.trim();
+  var erro = document.getElementById("erro-ideia");
+
+  if (titulo === "") {
+    erro.textContent = "O título é obrigatório.";
+    document.getElementById("titulo").focus();
+    return;
+  }
+
+  erro.textContent = "";
+
+  var tags = [];
+
+  if (tagsTexto !== "") {
+    var partes = tagsTexto.split(",");
+
+    for (var i = 0; i < partes.length; i++) {
+      var tag = partes[i].trim();
+
+      if (tag !== "") {
+        tags.push(tag);
+      }
+    }
+  }
+
+  var maiorId = 0;
+
+  for (var i = 0; i < DADOS.ideias.length; i++) {
+    if (DADOS.ideias[i].id > maiorId) {
+      maiorId = DADOS.ideias[i].id;
+    }
+  }
+
+  var agora = new Date();
+
+  var data =
+    agora.getFullYear() + "-" +
+    String(agora.getMonth() + 1).padStart(2, "0") + "-" +
+    String(agora.getDate()).padStart(2, "0");
+
+  var novaIdeia = {
+    id: maiorId + 1,
+    titulo: titulo,
+    resumo: resumo,
+    tags: tags,
+    autor: estado.pessoa,
+    data: data,
+    apoios: 0
+  };
+
+  DADOS.ideias.unshift(novaIdeia);
+
+  document.getElementById("form-ideia").reset();
+
+  desenharMural();
+}
 
 function iniciar() {
   estado.pessoa = DADOS.pessoas[0].id;
@@ -214,8 +272,18 @@ function iniciar() {
     estado.pessoa = Number(e.target.value);
   };
 
-  document.getElementById("aba-mural").onclick  = function () { trocarAba("mural"); };
-  document.getElementById("aba-grupos").onclick = function () { trocarAba("grupos"); };
+  document.getElementById("form-ideia").onsubmit = function (e) {
+    e.preventDefault();
+    publicarIdeia();
+  };
+
+  document.getElementById("aba-mural").onclick = function () {
+    trocarAba("mural");
+  };
+
+  document.getElementById("aba-grupos").onclick = function () {
+    trocarAba("grupos");
+  };
 
   desenhar();
 }
