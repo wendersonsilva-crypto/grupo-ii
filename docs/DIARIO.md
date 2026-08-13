@@ -25,18 +25,18 @@
 
 ---
 
-## Sessão extra — [data], [duração]
+## Sessão extra — 13/08 (aula)
 
-**Como foi combinada:** *(quando se marcou, por qual meio, quem confirmou)*
-**Presentes:**
-**Escriba:**
+**Como foi combinada:** Aula; 
+**Presentes:** Nathalia, Samuel, Silvia Beatriz e Wenderson;
+**Escriba:** Nathalia.
 
-**O que se realizou:**
+**O que se realizou:** V-03.
 
-| ID | Quem trabalhou | Tempo (min) |
-|---|---|---|
+| ID | Quem trabalhou | Tempo(min) |
+|22|Silvia Beatriz|60min|
 
-**Impedimentos e decisões:**
+**Impedimentos e decisões:** 
 
 ---
 
