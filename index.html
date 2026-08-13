@@ -27,6 +27,45 @@
 <main>
   <!-- ------------------------------ MURAL ------------------------------ -->
   <section id="mural">
+    <section id="mural">
+
+  <form id="form-ideia" class="form-ideia">
+    <h2>Publicar uma ideia</h2>
+
+    <label for="titulo">Título</label>
+    <input
+      id="titulo"
+      type="text"
+      placeholder="Título da ideia"
+    >
+
+    <label for="resumo">Resumo</label>
+    <textarea
+      id="resumo"
+      placeholder="Conte brevemente sua ideia"
+    ></textarea>
+
+    <label for="tags">Tags</label>
+    <input
+      id="tags"
+      type="text"
+      placeholder="Ex.: robótica, música, tecnologia"
+    >
+
+    <button type="submit">Publicar ideia</button>
+
+    <p id="erro-ideia" class="erro"></p>
+  </form>
+
+  <div class="barra">
+    <input id="busca" type="search" placeholder="buscar por título ou resumo...">
+    <span id="contagem" class="contagem"></span>
+  </div>
+
+  <p id="filtro-ativo" class="filtro-ativo"></p>
+  <div id="cartoes" class="cartoes"></div>
+
+</section>
     <div class="barra">
       <input id="busca" type="search" placeholder="buscar por título ou resumo...">
       <span id="contagem" class="contagem"></span>
