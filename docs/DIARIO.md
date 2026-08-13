@@ -34,10 +34,15 @@
 **O que foi realizado:**
 
 **Tempo gasto por história:**
+
 | ID | Quem trabalhou | Tempo (min) |
+
 | 6  | Samuel         | 70 minutos  |
+
 | 3  | Nathália       | 70 minutos  |
+
 | 4  | Silvia Beatriz | 70 minutos  |
+
 | 5  | Wenderson      | 40 minutos  |
 
 **Impedimentos encontrados:** *Compreensão dos trabalhos a serem feitos.*
