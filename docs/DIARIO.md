@@ -12,6 +12,7 @@
 **Escriba: kauã**
 
 **O que se pretendia: fazer a parte do "comece aqui" e tentar avançar.**
+
 **O que se realizou: fizemos a parte do "comece aqui"**
 
 **Tempo gasto por história:**
