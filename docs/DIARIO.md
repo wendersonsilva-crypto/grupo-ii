@@ -36,6 +36,30 @@
 | ID | Quem trabalhou | Tempo(min) |
 |22|Silvia Beatriz|60min|
 
+--- 
+
+
+## Encontro 3 - 13/08 (aula)
+
+**Presentes: Nathália, Samuel, Silvia Beatriz.**
+**Escriba: Samuel.**
+
+**O que se pretendia:** Analisar o backlog, adicionando correções e redefinindo tarefas. Analisar e avaliar as complexidades das tarefas.
+**O que foi realizado:**
+
+**Tempo gasto por história:**
+| ID | Quem trabalhou | Tempo (min) |
+| 6  | Samuel         | 70 minutos  |
+| 3  | Nathália       | 70 minutos  |
+| 4  | Silvia Beatriz | 70 minutos  |
+| 5  | Wenderson      | 40 minutos  |
+
+**Impedimentos encontrados:** *Compreensão dos trabalhos a serem feitos.*
+
+**Decisões tomadas:**
+
+---
+
 **Impedimentos e decisões:** 
 
 ---
