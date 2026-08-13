@@ -29,17 +29,18 @@ Pronto quando:
 
 **Como** aluno procurado algo para fazer 
 **quero** conseguir usar um filtro por curso
-**para** encontrar editais que combinem com seu gostos
+**para** encontrar ideias no mural que combinem com seu gostos
 
 Pronto quando:
-- o filtro estiver funcionando.
+- pedir obrigatoriamente que o aluno coloque qual o seu curso.
+- o filtro aparecer na barra lateral do mural.
 
 ---
 
 ### V-03 — Publicar uma ideia
 
 **Como** aluno ou professor com uma ideia na cabeça,
-**quero** publicar meu projeto independente através de um formulário que tenha título, resumo e tags, identificando meu nome como autor e a data de hoje, e que, ao enviar, faça minha ideia aparecer como um rascunho em uma área específica sem precisar recarregar a página,
+**quero** publicar meu projeto independente através de um formulário que tenha título, resumo e tags, identificando meu nome como autor e a data de hoje, e que, ao enviar, faça minha ideia aparecer como um rascunho em uma área específica,
 **para** que minha ideia exista antes de eu esquecer.
 
 Pronto quando:
@@ -48,6 +49,7 @@ Pronto quando:
 - a ideia criada traz, como autor, o nome de quem está navegando, e a data de hoje;
 - título vazio impede o envio e mostra uma mensagem dizendo o que falta;
 - a contagem total de ideias exibida no mural aumenta em um.
+- o próprio criador conseguir visualizar suas ideias especificamente. 
 
 ---
 
@@ -87,6 +89,8 @@ Pronto quando:
 
 Pronto quando:
 - os estados estiverem implementados.
+- quando o criador das ideias receber notificações de como está seu projeto
+- indicando em qual estado ele está
 
 Obs.: falamos em três estados — semente, germinando, proposta.
 
@@ -109,10 +113,9 @@ Pronto quando:
 
 ### V-08 — Não perder o que foi escrito
 
-**Como** usuário,
-**quero** não perder o que escrevi,
-**para** não ter que digitar tudo de novo.
-
+**Como** usuário da aplicação,
+**quero** que o conteúdo digitado seja salvo automaticamente como rascunho,
+**para** não perder minhas informações caso a página seja atualizada ou fechada acidentalmente.
 Pronto quando:
 - os dados forem salvos em `localStorage` usando `JSON.stringify`, e recuperados no carregamento da página.
 
