@@ -33,7 +33,8 @@
 **Escriba: Samuel.**
 
 **O que se pretendia:** Analisar o backlog, adicionando correções e redefinindo tarefas. Analisar e avaliar as complexidades das tarefas.
-**O que foi realizado:**
+
+**O que foi realizado:** Alterações do backlog; alterações dos assets; avalição de complexidade de atividades.
 
 **Tempo gasto por história:**
 
