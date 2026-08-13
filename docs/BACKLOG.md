@@ -36,9 +36,9 @@ Pronto quando:
 
 ### V-03 — Publicar uma ideia
 
-**Como** aluno com uma ideia na cabeça,
-**quero** publicá-la sem depender de ninguém,
-**para** que ela exista antes de eu esquecer.
+**Como** aluno ou professor com uma ideia na cabeça,
+**quero** publicar meu projeto independente através de um formulário que tenha título, resumo e tags, identificando meu nome como autor e a data de hoje, e que, ao enviar, faça minha ideia aparecer imediatamente no topo do mural sem precisar recarregar a página,
+**para** que minha ideia exista antes de eu esquecer.
 
 Pronto quando:
 - existe um formulário com título, resumo e tags;
