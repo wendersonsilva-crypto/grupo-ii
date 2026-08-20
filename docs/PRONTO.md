@@ -4,37 +4,20 @@
 
 ## Definição geral
 
-Uma história está pronta quando o programa da pessoa ao clicar no nome do autor em qualquer cartão abre a página do perfil.
-A página exibe o nome, tipo (aluno ou professor), curso e interesses.
-Lista as ideias publicadas pela pessoa, com títulos clicáveis.
-Se a pessoa não tiver publicado nada, exibe a mensagem: "Ainda não publicou ideias".
-Possui um caminho claro de volta ao mural sem precisar do botão de voltar do navegador.
-O filtro por curso está funcionando corretamente.
-Existe um formulário com título, resumo e tags.
-Ao enviar, a ideia surge imediatamente no topo do mural, sem recarregar a página.
-A ideia criada registra o nome de quem está navegando como autor e a data do dia.
-Caso o título esteja vazio, o envio é impedido e é exibida uma mensagem avisando o que falta.
-A contagem total de ideias do mural é incrementada em um
-A interface é amigável.
-A busca é rápida.
-Os resultados retornados são relevantes.
-5. Entrar e sair de um grupo (V-05)
-A lista de grupos indica claramente se o usuário atual está dentro ou fora.
-Ao entrar, o nome do usuário é adicionado à lista de membros e o contador sobe.
-Ao sair, o nome é removido e o contador desce.
-A lista exibe os nomes dos membros, e não apenas a quantidade numérica.
-Trocar a pessoa no campo "Navegando como" atualiza corretamente o que aparece na seção "Meus grupos".
-Os três estados da ideia estão implementados: Semente, Germinando e Proposta.
-Cada cartão possui o controle "Tenho interesse em participar".
-adicionar, o nome do usuário passa a constar na lista de interessados do projeto.
-A mesma pessoa não consegue se registrar duas vezes na mesma ideia.
-É possível desfazer o interesse, removendo o nome da lista.
-O número de interessados no cartão corresponde exatamente ao tamanho da lista.
-Os dados são salvos no localStorage usando JSON.stringify e recuperados automaticamente ao carregar a página.
-Ao registrar interesse, o autor do projeto recebe uma notificação no celular em até 1 minuto.
-A notificação informa o nome de quem se interessou e o título da ideia.
-Tocar na notificação redireciona e abre a ideia correspondente.
-com todos esses requisitos cumpridos, de acordo com o backlog, a historia está pronta.
+Uma história está pronta quando todos os requisitos definidos no backlog são cumpridos.
+
+**Perfil do autor:** ao clicar no nome do autor em qualquer cartão, o usuário deve acessar a página de perfil, que exibe nome, tipo (aluno ou professor), curso, interesses e as ideias publicadas, com títulos clicáveis. Caso não existam publicações, deve aparecer **"Ainda não publicou ideias"**. Deve haver um caminho claro de retorno ao mural, sem depender do botão voltar do navegador.
+
+**Busca e criação de ideias:** o filtro por curso deve funcionar corretamente, assim como a busca, que deve ser rápida e apresentar resultados relevantes. O formulário de criação deve conter título, resumo e tags. Ao enviar, a ideia aparece imediatamente no topo do mural, sem recarregar a página, registrando automaticamente o nome do usuário atual como autor e a data do dia. O envio deve ser bloqueado quando o título estiver vazio, com uma mensagem informando o que falta, e a contagem total de ideias deve aumentar em um. A interface deve ser amigável.
+
+**Entrar e sair de grupos (V-05):** a lista de grupos deve indicar claramente se o usuário está dentro ou fora. Ao entrar, seu nome é adicionado à lista de membros e o contador aumenta; ao sair, o nome é removido e o contador diminui. A lista deve mostrar os nomes dos membros, não apenas a quantidade. Alterar a pessoa no campo **"Navegando como"** deve atualizar corretamente a seção **"Meus grupos"**.
+
+**Interesse em ideias:** devem existir os três estados da ideia: **Semente, Germinando e Proposta**. Cada cartão deve possuir o controle **"Tenho interesse em participar"**. Ao demonstrar interesse, o nome do usuário é adicionado à lista de interessados, sem permitir duplicações. Também deve ser possível desfazer o interesse, removendo o nome da lista. O número exibido no cartão deve corresponder exatamente à quantidade de interessados.
+
+**Persistência e notificações:** os dados devem ser armazenados no `localStorage` utilizando `JSON.stringify` e recuperados automaticamente ao carregar a página. Quando alguém demonstrar interesse, o autor do projeto deve receber, em até 1 minuto, uma notificação no celular informando o nome da pessoa interessada e o título da ideia. Ao tocar na notificação, o usuário deve ser direcionado para a ideia correspondente.
+
+**Conclusão:** com todos esses requisitos implementados e funcionando conforme definido no backlog, a história é considerada pronta.
+
 
 ## Critérios de aceitação
 
