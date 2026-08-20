@@ -56,7 +56,7 @@ trocar a pessoa em "navegando como" muda corretamente o que aparece como "meus g
 o grupo tem um chat aberto onde todos podem expor suas ideias;
 
 ## V-06 — Estados da ideia — 8 pontos
-Como usuário, quero que as ideias tenham estados, para que os estados das ideias fiquem registrados.
+Como aluno, quero que as ideias tenham estados, para que os estados das ideias fiquem registrados.
 
 Pronto quando:
 
