@@ -95,7 +95,12 @@ tocar na notificação abre a ideia correspondente.
 Caixa de entrada
 Anotações de conversa. Ninguém escreveu direito ainda.
 
-### V-10 — ideias paradas
+## V-10 — ideias paradas
+Como usuario, quero conseguir fazer rascunhos de ideias, edita-las e postar no momento em que achar que a ideia esta boa.
+
+Pronto quando:
+ter uma pagina para deixar apenas rascunhos de ideias, e deixa-las paradas para quando eu tiver interesse de botar a ideia.
+conseguir editar as ideia e posta-las quando o usuario quiser.
 ### V-11 — relatório por curso
 ### V-12 — exportar / importar o estado
 ## Defeitos conhecidos
