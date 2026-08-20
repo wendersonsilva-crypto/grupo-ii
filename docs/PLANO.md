@@ -16,12 +16,19 @@
 > só será preenchida em 13/08 — deixá-la vazia até lá.
 
 | ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final|
+
 | V-03 |Publicar uma ideia | 8h | 8 pontos | --- |
+
 | V-08 | Não perder o que foi escrito (rascunho no localStorage) | 8h | 8 pontos | --- |
+
 | V-02 | Filtro por curso | 5h | 2 pontos | --- |
+
 | V-07 | Registrar interesse em participar | 5h | 5 pontos | --- |
+
 | B-01 | Depois de clicar numa tag, não há como desfazer o filtro | 2h | --- | --- |
+
 | B-02 | Quando a busca não encontra nada, fica em branco | 2h | --- | --- |
+
 | B-04 | Busca sem acentos (robotica vs Robótica) | 3h | --- | --- |
 
 **Capacidade assumida pela equipe:** 16 horas
