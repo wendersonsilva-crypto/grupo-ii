@@ -93,7 +93,7 @@ ao registrar interesse, o autor recebe uma notificação no celular em até um m
 a notificação mostra o nome de quem se interessou e o título da ideia;
 tocar na notificação abre a ideia correspondente.
 Caixa de entrada
-Anotações de conversa. Ninguém escreveu direito ainda.
+Anotações de conversa.
 
 ## V-10 — ideias paradas
 Como usuario, quero conseguir fazer rascunhos de ideias, edita-las e postar no momento em que achar que a ideia esta boa.
