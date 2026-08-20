@@ -13,16 +13,35 @@
 
 **O que se pretendia: fazer a parte do "comece aqui" e tentar avançar.**
 
-**O que se realizou: fizemos a parte do "comece aqui"**
+**O que se realizou: lemos o projeto e fizemos a parte do "comece aqui"**
 
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
-|          |Clarice e Kaua|            1h|
+|          |Clarice, Wenderson, Silvia, e Kaua|            60min|
 
-**Impedimentos encontrados:** *(A falta de interesse do grupo, acaba que apenas um aluno fez )*
+**Impedimentos encontrados:** *(A falta de empenho necessário, além do entendimento total e a ausência de alguns colegas )*
 
 **Decisões tomadas:** *(fizemos apenas o comece aqui)*
+
+---
+## Encontro 2 — 06/08 (aula)
+
+**Presentes: Kaua, Silvia Beatriz, Wenderson, Nathalia, Clarice e Samuel**
+**Escriba: kauã e Clarice**
+
+**O que se pretendia: corrigir as histórias e tentar avançar.**
+
+**O que se realizou: corrigimos as histórias"**
+
+**Tempo gasto por história:**
+
+| ID | Quem trabalhou | Tempo (min) |
+|          |Clarice, com ajuda da Nathalia, Silvia, Wenderson, Samuel e Kaua |            80 min|
+
+**Impedimentos encontrados:** *( conversas desnecessárias e distrações de alguns colegas)*
+
+**Decisões tomadas:** *(corrigimos as histórias e avançamos)*
 
 ---
 
@@ -61,3 +80,23 @@
 > Repetir o bloco adequado para cada encontro (06/08, 13/08, 20/08) e para
 > cada sessão extra. Não apagar blocos de sessões que não aconteceram:
 > registrar "não houve sessão extra nesta semana" também é registro.
+
+## Encontro 4 — 20/08 (aula)
+
+**Presentes: Kaua, Wenderson, Nathalia, Clarice e Samuel**
+**Escriba:Clarice**
+
+**O que se pretendia: corrigir as histórias e tentar avançar.**
+
+**O que se realizou: corrigimos as histórias"**
+
+**Tempo gasto por história:**
+
+| ID | Quem trabalhou | Tempo (min) |
+|          |Clarice, com ajuda da Nathalia, Silvia, Wenderson, Samuel e Kaua |            80 min|
+
+**Impedimentos encontrados:** *( conversas desnecessárias e distrações de alguns colegas)*
+
+**Decisões tomadas:** *(corrigimos as histórias e avançamos)*
+
+---
