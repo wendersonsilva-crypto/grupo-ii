@@ -28,7 +28,7 @@
 
 ## Encontro 3 - 13/08 (aula)
 
-**Presentes: Nathália, Samuel, Silvia Beatriz e Wenderson.**
+**Presentes: Nathália, Samuel, Silvia Beatriz e Wenderson.(Clarice estava no enlides)**
 
 **Escriba: Samuel.**
 
