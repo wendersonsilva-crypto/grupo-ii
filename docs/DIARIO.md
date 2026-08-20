@@ -9,7 +9,7 @@
 ## Encontro 1 — 30/07 (aula)
 
 **Presentes: kaua, silvia beatriz, wenderson e clarice.**
-**Escriba: kauã**
+**Escriba: kauã e Clarice**
 
 **O que se pretendia: fazer a parte do "comece aqui" e tentar avançar.**
 
@@ -86,17 +86,17 @@
 **Presentes: Kaua, Wenderson, Nathalia, Clarice e Samuel**
 **Escriba:Clarice**
 
-**O que se pretendia: corrigir as histórias e tentar avançar.**
+**O que se pretendia: Ler os novos documentos, conferir o que foi feito, melhorar os planos e termina-lo.**
 
-**O que se realizou: corrigimos as histórias"**
+**O que se realizou: "**
 
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
-|          |Clarice, com ajuda da Nathalia, Silvia, Wenderson, Samuel e Kaua |            80 min|
+|          | |            |
 
-**Impedimentos encontrados:** *( conversas desnecessárias e distrações de alguns colegas)*
+**Impedimentos encontrados:** *( )*
 
-**Decisões tomadas:** *(corrigimos as histórias e avançamos)*
+**Decisões tomadas:** *()*
 
 ---
