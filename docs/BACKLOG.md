@@ -95,11 +95,11 @@ tocar na notificação abre a ideia correspondente.
 Caixa de entrada
 Anotações de conversa. Ninguém escreveu direito ainda.
 
-V-10 — ideias paradas
-V-11 — relatório por curso
-V-12 — exportar / importar o estado
-Defeitos conhecidos
-Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
+### V-10 — ideias paradas
+### V-11 — relatório por curso
+### V-12 — exportar / importar o estado
+## Defeitos conhecidos
+#### Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 
 B-01 — depois de clicar numa tag, não há como desfazer o filtro; só recarregando a página.
 B-02 — quando a busca não encontra nada, o mural fica em branco, sem nenhuma explicação.
