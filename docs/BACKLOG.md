@@ -112,3 +112,9 @@ conseguir editar as ideia e posta-las quando o usuario quiser.
 #### B-04 — buscar robotica não encontra "Robótica"; buscar Musica não encontra "música".
 #### B-05 — o número de apoios no cartão só muda depois que se refaz a busca.
 #### B-06 — título comprido vaza para fora do cartão e atravessa o cartão vizinho.
+
+## Registro da triagem — 30/07
+
+| História | Situação em que foi recebida | O que foi alterado | Justificativa |
+|---|---|---|---|
+| V-02 | ... | ... | ... |
