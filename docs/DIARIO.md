@@ -18,7 +18,7 @@
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
-|          |Kauã|            1h|
+|          |Clarice e Kaua|            1h|
 
 **Impedimentos encontrados:** *(A falta de interesse do grupo, acaba que apenas um aluno fez )*
 
