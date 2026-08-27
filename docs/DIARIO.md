@@ -88,6 +88,26 @@
 
 **O que se pretendia: Ler os novos documentos, conferir o que foi feito, melhorar os planos e termina-lo.**
 
+**O que se realizou: "terminamos o plano e o pronto**
+
+**Tempo gasto por história:**
+
+| ID | Quem trabalhou | Tempo (min) |
+|          |Nathalia, Samuel, Kaua e Clarice |   100 min     |
+
+**Impedimentos encontrados:** *( )*
+
+**Decisões tomadas:** *()*
+
+---
+
+## Encontro 5 — 27/08 (aula)
+
+**Presentes:Nathalia, Clarice e Kaua**
+**Escriba:Clarice**
+
+**O que se pretendia: Corrigir o código, terminar tudo e analisar o que já foi feito.**
+
 **O que se realizou: "**
 
 **Tempo gasto por história:**
