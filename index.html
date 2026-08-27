@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Viveiro — berçário de ideias</title>
-<link rel="stylesheet" href="src/estilo.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viveiro — berçário de ideias</title>
+
+  <link rel="stylesheet" href="src/estilo.css">
 </head>
+
 <body>
 
 <header>
@@ -13,6 +16,7 @@
     <h1>Viveiro</h1>
     <span class="lema">onde as ideias crescem antes de virar projeto</span>
   </div>
+
   <div class="sessao">
     <label for="quem">navegando como</label>
     <select id="quem"></select>
@@ -25,67 +29,87 @@
 </nav>
 
 <main>
+
   <!-- ------------------------------ MURAL ------------------------------ -->
+
   <section id="mural">
-    <section id="mural">
 
-  <form id="form-ideia" class="form-ideia">
-    <h2>Publicar uma ideia</h2>
+    <form id="form-ideia" class="form-ideia">
 
-    <label for="titulo">Título</label>
-    <input
-      id="titulo"
-      type="text"
-      placeholder="Título da ideia"
-    >
+      <h2>Publicar uma ideia</h2>
 
-    <label for="resumo">Resumo</label>
-    <textarea
-      id="resumo"
-      placeholder="Conte brevemente sua ideia"
-    ></textarea>
+      <label for="titulo">Título</label>
 
-    <label for="tags">Tags</label>
-    <input
-      id="tags"
-      type="text"
-      placeholder="Ex.: robótica, música, tecnologia"
-    >
+      <input
+        id="titulo"
+        type="text"
+        placeholder="Título da ideia"
+      >
 
-    <button type="submit">Publicar ideia</button>
+      <label for="resumo">Resumo</label>
 
-    <p id="erro-ideia" class="erro"></p>
-  </form>
+      <textarea
+        id="resumo"
+        placeholder="Conte brevemente sua ideia"
+      ></textarea>
 
-  <div class="barra">
-    <input id="busca" type="search" placeholder="buscar por título ou resumo...">
-    <span id="contagem" class="contagem"></span>
-  </div>
+      <label for="tags">Tags</label>
 
-  <p id="filtro-ativo" class="filtro-ativo"></p>
-  <div id="cartoes" class="cartoes"></div>
+      <input
+        id="tags"
+        type="text"
+        placeholder="Ex.: robótica, música, tecnologia"
+      >
 
-</section>
+      <button type="submit">Publicar ideia</button>
+
+      <p id="erro-ideia" class="erro"></p>
+
+    </form>
+
+
     <div class="barra">
-      <input id="busca" type="search" placeholder="buscar por título ou resumo...">
+
+      <input
+        id="busca"
+        type="search"
+        placeholder="buscar por título ou resumo..."
+      >
+
       <span id="contagem" class="contagem"></span>
+
     </div>
+
+
     <p id="filtro-ativo" class="filtro-ativo"></p>
+
     <div id="cartoes" class="cartoes"></div>
+
   </section>
+
 
   <!-- ------------------------------ GRUPOS ----------------------------- -->
+
   <section id="grupos" class="escondido">
+
     <ul id="lista-grupos" class="lista-grupos"></ul>
+
   </section>
+
 </main>
 
+
 <footer>
+
   <span>Viveiro — versão 0.1 (MVP)</span>
+
   <span id="base" class="base"></span>
+
 </footer>
+
 
 <script src="dados/dados_A.js"></script>
 <script src="src/app.js"></script>
+
 </body>
 </html>
