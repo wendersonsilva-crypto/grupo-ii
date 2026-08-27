@@ -16,10 +16,10 @@ se a pessoa não publicou nenhuma ideia, aparece a frase "ainda não publicou id
 existe um caminho de volta ao mural sem usar o botão do navegador.
 
 ## V-02 — Filtro por curso — 5 pontos
-Como usuário, quero poder buscar ideias por curso para procurar alunos que se interessem pelas mesmas coisas que eu, estando em determinado curso. Seria útil um filtro por curso na barra lateral do mural. Pronto quando:
+Como usuário, quero poder buscar ideias por curso para procurar alunos que se interessem pelas mesmas coisas que eu, e que sejam do mesmo curso que eu. Seria útil um filtro por curso na barra lateral do mural. Pronto quando:
 
 a página exigir que o aluno exponha o curso dele;
-uma função que filtra cursos de acordo com a pesquisa da pessoa estiver funcionando plenamente.
+uma função que filtra cursos de acordo com a pesquisa da pessoa.
 
 ## V-03 — Publicar uma ideia — 8 pontos
 Como aluno com uma ideia na cabeça, quero publicá-la sem depender de ninguém, para que ela exista antes de eu esquecer.
@@ -38,10 +38,9 @@ Como visitante do mural, quero encontrar rapidamente as ideias que combinam comi
 Pronto quando:
 
 busca filtrar corretamente;
-página tiver acesso as idéias que você se interessa, para te recomendar itens parecidos;
+página tiver acesso as idéias que você busca, para te recomendar itens parecidos;
 a interface estiver de fácil visualização e entendimento;
-a busca for rápida;
-o resultado for relevante.
+busca mostrar algo.
 
 ## V-05 — Entrar e sair de um grupo — 13 pontos
 Como aluno que quer se aproximar de um tema, quero entrar num grupo, para acompanhar o que se discute ali.
@@ -56,13 +55,13 @@ trocar a pessoa em "navegando como" muda corretamente o que aparece como "meus g
 o grupo tem um chat aberto onde todos podem expor suas ideias;
 
 ## V-06 — Estados da ideia — 8 pontos
-Como aluno, quero que as ideias tenham estados, para que os estados das ideias fiquem registrados.
+Como autor, quero que as ideias tenham estados, para que os estados das ideias fiquem registrados.
 
 Pronto quando:
 
-os estados estiverem implementados.
-quando o criador das ideias receber notificações de como está seu projeto
-indicar em qual estado o projeto está
+os estados estiverem implementados;
+quando o criador das ideias receber notificações de como está seu projeto;
+indicar em qual estado o projeto está;
 Obs.: falamos em três estados — semente, germinando, proposta.
 
 ## V-07 — Registrar interesse em participar — 5 pontos
