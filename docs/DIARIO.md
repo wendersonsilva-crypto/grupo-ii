@@ -18,7 +18,11 @@
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
-|          |Clarice, Wenderson, Silvia, e Kaua|            60min|
+|    | Clarice        | 60 min      |
+|    | Silvia Beatriz | 60 min      |
+|    | Kaua           | 60 min      |
+|    | Wenderson      | 30 min      |
+
 
 **Impedimentos encontrados:** *(A falta de empenho necessário, além do entendimento total e a ausência de alguns colegas )*
 
@@ -37,7 +41,12 @@
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
-|          |Clarice, com ajuda da Nathalia, Silvia, Wenderson, Samuel e Kaua |            80 min|
+|    | Clarice        | 80 min      |
+|    | Kaua           | 60 min      |
+|    | Nathalia       | 60 min      |
+|    | Silvia         | 60 min      |
+|    | Wenderson      | 60 min      |
+|    | Samuel         | 60 min      |
 
 **Impedimentos encontrados:** *( conversas desnecessárias e distrações de alguns colegas)*
 
@@ -58,14 +67,10 @@
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
-
-| 6  | Samuel         | 70 minutos  |
-
-| 3  | Nathália       | 70 minutos  |
-
-| 4  | Silvia Beatriz | 70 minutos  |
-
-| 5  | Wenderson      | 40 minutos  |
+| 6  | Samuel         | 70 min      |
+| 3  | Nathália       | 70 min      |
+| 4  | Silvia Beatriz | 70 min      |
+| 5  | Wenderson      | 40 min      |
 
 **Impedimentos encontrados:** *Compreensão dos trabalhos a serem feitos.*
 
@@ -93,7 +98,10 @@
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
-|          |Nathalia, Samuel, Kaua e Clarice |   100 min     |
+|    | Samuel         | 100 min     |
+|    | Kaua           | 100 min     |
+|    | Clarice        | 60 min      |
+|    | Nathalia       | 60 min      |
 
 **Impedimentos encontrados:** *( )*
 
@@ -103,7 +111,7 @@
 
 ## Encontro 5 — 27/08 (aula)
 
-**Presentes:Nathalia, Clarice e Kaua**
+**Presentes:Nathalia, Clarice e Kaua (Samuel está doente)**
 **Escriba:Clarice**
 
 **O que se pretendia: Corrigir o código, terminar tudo e analisar o que já foi feito.**
@@ -113,7 +121,7 @@
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
-|          | |            |
+|    | Clarice        |  min      |
 
 **Impedimentos encontrados:** *( )*
 
