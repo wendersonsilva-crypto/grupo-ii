@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Viveiro — berçário de ideias</title>
-
   <link rel="stylesheet" href="src/estilo.css">
 </head>
-
 <body>
-
 <header>
   <div class="marca">
     <h1>Viveiro</h1>
     <span class="lema">onde as ideias crescem antes de virar projeto</span>
   </div>
-
   <div class="sessao">
     <label for="quem">navegando como</label>
     <select id="quem"></select>
@@ -26,90 +21,75 @@
 <nav class="abas">
   <button id="aba-mural" class="aba ativa">Mural</button>
   <button id="aba-grupos" class="aba">Grupos</button>
+  <button id="aba-rascunhos" class="aba">Rascunhos</button>
+  <button id="aba-pessoa" class="aba">Meu perfil</button>
 </nav>
 
 <main>
-
-  <!-- ------------------------------ MURAL ------------------------------ -->
-
   <section id="mural">
-
     <form id="form-ideia" class="form-ideia">
-
       <h2>Publicar uma ideia</h2>
-
       <label for="titulo">Título</label>
-
-      <input
-        id="titulo"
-        type="text"
-        placeholder="Título da ideia"
-      >
-
+      <input id="titulo" type="text" placeholder="Título da ideia">
       <label for="resumo">Resumo</label>
-
-      <textarea
-        id="resumo"
-        placeholder="Conte brevemente sua ideia"
-      ></textarea>
-
+      <textarea id="resumo" placeholder="Conte brevemente sua ideia"></textarea>
       <label for="tags">Tags</label>
-
-      <input
-        id="tags"
-        type="text"
-        placeholder="Ex.: robótica, música, tecnologia"
-      >
-
-      <button type="submit">Publicar ideia</button>
-
+      <input id="tags" type="text" placeholder="Ex.: robótica, música, tecnologia">
+      <div class="linha-botoes">
+        <button type="submit">Publicar ideia</button>
+        <button type="button" id="salvar-rascunho" class="secundario">Salvar rascunho</button>
+      </div>
       <p id="erro-ideia" class="erro"></p>
-
     </form>
 
-
     <div class="barra">
-
-      <input
-        id="busca"
-        type="search"
-        placeholder="buscar por título ou resumo..."
-      >
-
+      <input id="busca" type="search" placeholder="buscar por título ou resumo...">
+      <select id="filtro-curso" aria-label="Filtrar por curso">
+        <option value="">Todos os cursos</option>
+      </select>
       <span id="contagem" class="contagem"></span>
-
     </div>
 
+    <div class="acoes-filtro">
+      <p id="filtro-ativo" class="filtro-ativo"></p>
+      <button id="limpar-filtros" class="link-botao" type="button">limpar filtros</button>
+    </div>
 
-    <p id="filtro-ativo" class="filtro-ativo"></p>
-
+    <section id="recomendacoes" class="recomendacoes"></section>
     <div id="cartoes" class="cartoes"></div>
-
   </section>
-
-
-  <!-- ------------------------------ GRUPOS ----------------------------- -->
 
   <section id="grupos" class="escondido">
-
+    <h2>Grupos</h2>
     <ul id="lista-grupos" class="lista-grupos"></ul>
-
   </section>
 
+  <section id="rascunhos" class="escondido">
+    <div class="cabecalho-secao">
+      <div>
+        <h2>Meus rascunhos</h2>
+        <p>Ideias guardadas sem aparecer no mural.</p>
+      </div>
+    </div>
+    <div id="lista-rascunhos" class="lista-rascunhos"></div>
+  </section>
+
+  <section id="pessoa" class="escondido">
+    <div id="perfil-pessoa" class="perfil"></div>
+  </section>
+
+  <section id="ideia-detalhe" class="escondido">
+    <button id="voltar-mural" class="link-botao" type="button">← voltar ao mural</button>
+    <div id="detalhe-conteudo"></div>
+  </section>
 </main>
 
-
 <footer>
-
-  <span>Viveiro — versão 0.1 (MVP)</span>
-
+  <span>Viveiro — versão 0.2</span>
   <span id="base" class="base"></span>
-
 </footer>
-
 
 <script src="dados/dados_A.js"></script>
 <script src="src/app.js"></script>
-
 </body>
 </html>
