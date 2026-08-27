@@ -76,21 +76,20 @@ a mesma pessoa não consegue se registrar duas vezes na mesma ideia;
 o número de interessados exibido no cartão corresponde ao tamanho da lista.
 
 ## V-08 — Não perder o que foi escrito — 8 pontos
-Como usuário, quero não perder o que escrevi, para não ter que digitar tudo de novo.
+Como aluno e professor, não quero perder o que escrevi, para não ter que digitar tudo de novo, e correr o risco de esquecer as informações.
 
 Pronto quando:
 
-os dados forem salvos em localStorage usando JSON.stringify, e recuperados no carregamento da página.
-Os dados irem para um tipo de rascunho em uma área específica sem se o mural
+os dados forem salvos, e recuperados no carregamento da página;
+Os dados irem para um tipo de rascunho em uma área específica.
 
 ## V-09 — Aviso de novo interessado — 13 pontos
-Como aluno com uma ideia publicada, quero receber uma notificação no celular quando alguém demonstrar interesse, para não perder a chance de formar grupo.
+Como aluno com uma ideia publicada, quero receber uma notificação quando abrir a página, caso alguém demonstrar interesse, para não perder a chance de formar grupo.
 
 Pronto quando:
 
-ao registrar interesse, o autor recebe uma notificação no celular em até um minuto;
+ao registrar interesse, o autor quando abrir a página, pode visualizar quem interagiu com ele;
 a notificação mostra o nome de quem se interessou e o título da ideia;
-tocar na notificação abre a ideia correspondente.
 Caixa de entrada
 Anotações de conversa.
 
