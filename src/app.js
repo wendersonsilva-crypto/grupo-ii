@@ -38,26 +38,43 @@ function ideiaPorId(id) {
 
 /* ------------------------------------------------------- filtragem */
 
+// B-04 — remove acentos e deixa tudo em minúsculo
+function normalizarTexto(texto) {
+  return texto
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
 function ideiasVisiveis() {
   var resultado = [];
+
   for (var i = 0; i < DADOS.ideias.length; i++) {
     var ideia = DADOS.ideias[i];
 
     // filtro por texto
     var casaTexto = true;
+
     if (estado.busca !== "") {
-      casaTexto = ideia.titulo.includes(estado.busca) ||
-                  ideia.resumo.includes(estado.busca);
+      var busca = normalizarTexto(estado.busca);
+      var titulo = normalizarTexto(ideia.titulo);
+      var resumo = normalizarTexto(ideia.resumo);
+
+      casaTexto = titulo.includes(busca) || resumo.includes(busca);
     }
 
     // filtro por tag
     var casaTag = true;
+
     if (estado.tag !== null) {
       casaTag = ideia.tags.indexOf(estado.tag) >= 0;
     }
 
-    if (casaTexto && casaTag) resultado.push(ideia);
+    if (casaTexto && casaTag) {
+      resultado.push(ideia);
+    }
   }
+
   return resultado;
 }
 
@@ -67,26 +84,55 @@ function desenhar() {
   desenharSeletorDePessoas();
   desenharMural();
   desenharGrupos();
+
   document.getElementById("base").textContent = "base " + DADOS.codigo;
 }
 
 function desenharSeletorDePessoas() {
   var alvo = document.getElementById("quem");
-  if (alvo.options.length > 0) return;   // só monta uma vez
+
+  if (alvo.options.length > 0) return;
+
   for (var i = 0; i < DADOS.pessoas.length; i++) {
     var p = DADOS.pessoas[i];
+
     var opcao = document.createElement("option");
     opcao.value = p.id;
     opcao.textContent = p.nome + " (" + p.curso + ")";
+
     alvo.appendChild(opcao);
   }
+
   alvo.value = estado.pessoa;
 }
 
 function desenharMural() {
   var lista = ideiasVisiveis();
   var alvo = document.getElementById("cartoes");
+
   alvo.innerHTML = "";
+
+  // B-02 — mensagem quando não há resultados
+  if (lista.length === 0) {
+    var mensagem = document.createElement("p");
+    mensagem.className = "sem-resultados";
+
+    if (estado.busca !== "" && estado.tag !== null) {
+      mensagem.textContent =
+        "Nenhuma ideia encontrada para essa busca e essa etiqueta.";
+    } else if (estado.busca !== "") {
+      mensagem.textContent =
+        "Nenhuma ideia encontrada para essa busca.";
+    } else if (estado.tag !== null) {
+      mensagem.textContent =
+        "Nenhuma ideia encontrada com essa etiqueta.";
+    } else {
+      mensagem.textContent =
+        "Ainda não há ideias para mostrar.";
+    }
+
+    alvo.appendChild(mensagem);
+  }
 
   for (var i = 0; i < lista.length; i++) {
     alvo.appendChild(montarCartao(lista[i]));
@@ -96,8 +142,10 @@ function desenharMural() {
     lista.length + " de " + DADOS.ideias.length + " ideias";
 
   var aviso = document.getElementById("filtro-ativo");
+
   if (estado.tag !== null) {
-    aviso.textContent = "mostrando apenas ideias com a etiqueta: " + estado.tag;
+    aviso.textContent =
+      "mostrando apenas ideias com a etiqueta: " + estado.tag;
   } else {
     aviso.textContent = "";
   }
@@ -113,7 +161,13 @@ function montarCartao(ideia) {
 
   var autoria = document.createElement("div");
   autoria.className = "autoria";
-  autoria.textContent = nomeDe(ideia.autor) + " · " + ideia.data;
+
+  // B-03 — transforma AAAA-MM-DD em DD/MM/AAAA
+  var partesData = ideia.data.split("-");
+  var dataFormatada =
+    partesData[2] + "/" + partesData[1] + "/" + partesData[0];
+
+  autoria.textContent = nomeDe(ideia.autor) + " · " + dataFormatada;
   cartao.appendChild(autoria);
 
   var resumo = document.createElement("p");
@@ -123,13 +177,17 @@ function montarCartao(ideia) {
 
   var tags = document.createElement("div");
   tags.className = "tags";
+
   for (var i = 0; i < ideia.tags.length; i++) {
     var etiqueta = document.createElement("span");
+
     etiqueta.className = "etiqueta";
     etiqueta.textContent = ideia.tags[i];
     etiqueta.onclick = criarCliqueDeTag(ideia.tags[i]);
+
     tags.appendChild(etiqueta);
   }
+
   cartao.appendChild(tags);
 
   var rodape = document.createElement("div");
@@ -139,37 +197,46 @@ function montarCartao(ideia) {
   botao.className = "apoiar";
   botao.textContent = "apoiar";
   botao.onclick = criarCliqueDeApoio(ideia.id);
+
   rodape.appendChild(botao);
 
   var contador = document.createElement("span");
   contador.className = "apoios";
   contador.textContent = ideia.apoios + " apoios";
+
   rodape.appendChild(contador);
 
   cartao.appendChild(rodape);
+
   return cartao;
 }
 
 function desenharGrupos() {
   var alvo = document.getElementById("lista-grupos");
+
   alvo.innerHTML = "";
+
   for (var i = 0; i < DADOS.grupos.length; i++) {
     var g = DADOS.grupos[i];
+
     var item = document.createElement("li");
 
     var quantos = document.createElement("span");
     quantos.className = "quantos";
     quantos.textContent = g.membros.length + " membros";
+
     item.appendChild(quantos);
 
     var nome = document.createElement("span");
     nome.className = "nome";
     nome.textContent = g.nome;
+
     item.appendChild(nome);
 
     var descricao = document.createElement("p");
     descricao.className = "descricao";
     descricao.textContent = g.descricao;
+
     item.appendChild(descricao);
 
     alvo.appendChild(item);
@@ -178,26 +245,44 @@ function desenharGrupos() {
 
 /* ---------------------------------------------------------- ações */
 
+// B-01 — clicar na mesma tag novamente remove o filtro
 function criarCliqueDeTag(tag) {
   return function () {
-    estado.tag = tag;
-    desenhar();
+    if (estado.tag === tag) {
+      estado.tag = null;
+    } else {
+      estado.tag = tag;
+    }
+
+    desenharMural();
   };
 }
 
+// B-05 — atualiza o contador imediatamente
 function criarCliqueDeApoio(idIdeia) {
   return function () {
     var ideia = ideiaPorId(idIdeia);
+
     ideia.apoios = ideia.apoios + 1;
+
+    desenharMural();
   };
 }
 
 function trocarAba(qual) {
   estado.aba = qual;
-  document.getElementById("mural").className = (qual === "mural") ? "" : "escondido";
-  document.getElementById("grupos").className = (qual === "grupos") ? "" : "escondido";
-  document.getElementById("aba-mural").className = (qual === "mural") ? "aba ativa" : "aba";
-  document.getElementById("aba-grupos").className = (qual === "grupos") ? "aba ativa" : "aba";
+
+  document.getElementById("mural").className =
+    (qual === "mural") ? "" : "escondido";
+
+  document.getElementById("grupos").className =
+    (qual === "grupos") ? "" : "escondido";
+
+  document.getElementById("aba-mural").className =
+    (qual === "mural") ? "aba ativa" : "aba";
+
+  document.getElementById("aba-grupos").className =
+    (qual === "grupos") ? "aba ativa" : "aba";
 }
 
 function publicarIdeia() {
