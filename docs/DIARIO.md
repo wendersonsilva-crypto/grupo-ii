@@ -116,12 +116,15 @@
 
 **O que se pretendia: Corrigir o código, terminar tudo e analisar o que já foi feito.**
 
-**O que se realizou: "**
+**O que se realizou: "Analisamos o backlog, terminamos tudo e corrigimos o código**
 
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
-|    | Clarice        |  min      |
+|    | Clarice        | 100 min     |
+|    | Nathalia       | 100 min     |
+|    | Kaua           | 60 min     |
+
 
 **Impedimentos encontrados:** *( )*
 
